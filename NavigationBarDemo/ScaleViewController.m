@@ -30,7 +30,7 @@
     
     
     if ([self respondsToSelector:@selector(automaticallyAdjustsScrollViewInsets)]) {
-//        self.automaticallyAdjustsScrollViewInsets = NO;
+        self.automaticallyAdjustsScrollViewInsets = NO;
     }
     
     //  1.头像视图
